@@ -4,7 +4,7 @@ O ChatBot PDF é um assistente inteligente para leitura e interpretação de arq
 
 ## 📦 Demo App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)]()
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://callchatpdf.streamlit.app/)
 
 ## 🔑 Como obter uma chave de API da OpenAI
 
