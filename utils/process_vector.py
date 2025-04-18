@@ -1,11 +1,11 @@
 import os
 
-from langchain_chroma import Chroma
 from langchain_openai import OpenAIEmbeddings
 
 persist_directory = 'db'
 
 def load_existing_vector_store():
+    from langchain_chroma import Chroma
     if os.path.exists(os.path.join(persist_directory)):
         vector_store = Chroma(
             persist_directory=persist_directory,
@@ -15,6 +15,7 @@ def load_existing_vector_store():
     return None
 
 def add_to_vector_store(chunks, vector_store=None):
+    from langchain_chroma import Chroma
     if vector_store:
         vector_store.add_documents(chunks)
     else:
